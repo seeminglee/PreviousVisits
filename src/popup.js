@@ -15,9 +15,6 @@ function showHistory(arr, url) {
 			a.title = a.href;
 		var text = document.createTextNode(item.title);
 		a.appendChild(text);
-		a.addEventListener("click", function(e) {
-			gotoURL(this.href)
-		})
 		li.appendChild(a);
 		var spanURL = document.createElement('span');
 		var spanDate = document.createElement('span');
@@ -30,6 +27,9 @@ function showHistory(arr, url) {
 		)
 		li.appendChild(spanURL);
 		li.appendChild(spanDate);
+		li.addEventListener("click", function(e) {
+			gotoURL(this.getElementsByTagName('a')[0].href)
+		});
 		ul.appendChild(li);
 	}
 	document.body.appendChild(ul);
