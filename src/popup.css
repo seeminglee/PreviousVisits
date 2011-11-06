@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'MisoRegular';
+    src: url('miso-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: MisoRegular;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16pt;
+	min-width:400px;
+}
+
+li { color: #999; font-size: 12pt; margin-bottom:6px; }
+
+li a {
+	text-decoration: none;
+	color: #0a5382;
+	font-size: 16pt;
+}
+li a:hover {
+	color: #0099ff;
+}
+

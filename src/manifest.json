@@ -1,0 +1,16 @@
+{
+	"name": "Show Previous Visits",
+	"version": "1.0",
+	"description": "Redirect user to last page visited on same site.",
+	"icons": { "128": "icon_128x128.png" },
+	"permissions": [
+		"history",
+		"tabs", "http://*/*", "https://*/*"
+	],
+	"browser_action": {
+		"default_title": "List of same site history items.",
+		"default_icon": "icon_19x19.png",
+		"popup": "popup.html"
+	}
+
+}
