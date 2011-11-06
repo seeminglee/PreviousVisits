@@ -1,26 +1,42 @@
 @font-face {
-    font-family: 'MisoRegular';
-    src: url('miso-webfont.ttf') format('truetype');
+    font-family: 'BodyText';
+    src: url('fonts/Roboto-Condensed.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
-	font-family: MisoRegular;
+	font-family: BodyText;
 	font-weight: normal;
 	font-style: normal;
-	font-size: 16pt;
+	font-size: 14pt;
 	min-width:400px;
 }
 
-li { color: #999; font-size: 12pt; margin-bottom:6px; }
-
-li a {
+a {
 	text-decoration: none;
 	color: #0a5382;
-	font-size: 16pt;
+	line-height: 1.1em;
+	display:block;
 }
-li a:hover {
+a:hover {
 	color: #0099ff;
 }
+
+
+
+li {
+
+	margin-bottom:6px;
+}
+
+span {
+	display:block;
+	font-size: 10pt;
+	line-height: 1.2em;
+}
+
+.url { color: #666; }
+.date { color: #999; }
+
 
