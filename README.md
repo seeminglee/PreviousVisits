@@ -4,7 +4,7 @@ My first foray into writing Chrome extensions. I wrote it mainly to use as a dyn
 
 ## How it works
 
-Here's a screenshot of it in action:
+Here's a screenshot of it in action - and please pardon the the insane amount of extension icons next to it...
 
 ![Screenshot of PreviousVisits Chrome extention](http://f.cl.ly/items/1m2Q110w1e2R3U3y2U2Q/Screen%20Shot%202011-11-17%20at%209.01.29%20PM.png "Screenshot")
 
